@@ -3,6 +3,9 @@ dist: bionic
 sudo: required
 group: edge
 services: docker
+arch:
+  - amd64
+  - arm64
 language: python
 python: 3.8
 env:
